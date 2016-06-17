@@ -1,0 +1,60 @@
+    	
+body {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+	border: 1px solid #c8c8c8;
+	border-radius: 2px;
+	padding: 5px;
+  margin: 10px 6px;
+  box-sizing: border-box;
+}
+
+.mybutton {
+  width: 150px;
+  height: 40px;
+	border-radius: 8px;
+  margin: 0 34px;
+  background: linear-gradient(to top, #d3d3d3, #f1f1f1);
+}
+
+.mytabl { 
+  width: 600px; 
+  border: 1px double #c4c4c4; /* Рамка вокруг таблицы */
+  border-collapse: collapse; /* Отображать только одинарные линии */
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow:  0 8px 10px -4px rgba(0,0,0,0.5)
+}
+
+.mytabl th { 
+  background: #c4c4c4; /* Цвет фона ячеек */
+  padding: 7px; /* Поля вокруг содержимого ячеек */
+  border: 1px double #c4c4c4; /* Граница вокруг ячеек */
+  color: #fff;
+  text-align: center;
+}
+
+.mytabl td { 
+  text-align: center;
+  height: 20px;
+  padding: 5px; 
+  border: 1px double #c4c4c4; 
+}
+
+
+
+#login, #names, #point, #date { width: 175px; }
+#gend, #grup { width: 95px; }
+
+.form-table {
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+  background: linear-gradient(to top, #b8b8b8, #d3d3d3);
+}
+
+.form-input { background-color: #fff; }
+   		

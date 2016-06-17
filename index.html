@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Stepanenko alex</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascript.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="form-table">
+      <div class="form-input">
+
+      	<table id="myTable" class="mytabl">
+      		<tbody>
+      			<th>Login</th>
+      			<th>Имя</th>
+       			<th>Пол</th>
+      			<th>Группа</th>
+      			<th>Дата рождения</th>
+      			<th>Очки</th>
+  		    <tr>
+      			<td>login1</td>
+      			<td>цезарь</td>
+      			<td>муж.</td>
+      			<td>царь</td>
+      			<td>до н.е</td>
+      			<td>100</td>
+		      </tr>
+		      </tbody>
+      	</table>
+  
+      	<form >
+      		<div style="padding: 0; margin: 0;"> 
+      			<input type="text" id="login" value="" placeholder="Логин">
+      			<input type="text" id="names" value="" placeholder="Имя">
+      			<input list="gender" id="gend" value="" placeholder="Пол">
+    	   			<datalist id="gender">
+        				<option>Муж.</option>
+        				<option>Жен.</option>
+       				</datalist> 
+      			<input list="group" id="grup" value="" placeholder="Группа">
+      				<datalist id="group">
+        				<option>Царь</option>
+        				<option>Воин</option>
+        				<option>Мирный житель</option>
+       				</datalist>
+      		</div>
+      		<input type="text" id="point" value="" placeholder="Очки">
+      		<input type="text" id="date" value="" placeholder="Дата в формате 31/12/2012">
+    		  <input  type="button" value="Добавить" href="javascript://" onclick="addRow('myTable');return false;" class="mybutton">
+
+        </form>
+      </div>
+    </div>
+
+<input type="text" id="phone" name="phone" value="">
+
+
+<script>
+	var input = document.getElementById("phone") ;
+	input.oninput = function() {
+ 		if(this.value[0]==0) return ;
+			this.value = "" ;
+		alert("Начните вводить с нуля") ;
+	} ;
+</script>
+
+    
+
+  </body>
+</html>
